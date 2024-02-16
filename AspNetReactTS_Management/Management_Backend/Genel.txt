@@ -1,0 +1,9 @@
+﻿Öncesinde Nugetten İlk 3 paketi indirdim
+İlk Once Model Yapısı oluşturuldu daha sonra appsettings jsonda veritabanı baglantı dizesi yazıldı
+ardından program.cs te builder.Services.AddDbContext ile UseSqlServer eklendi ve local kullanıldı
+modelde yapılacak tum işler bittikten sonra PM da "dotnet ef migration yeni" diyerek migration
+oluşturuldu ardından "dotnet ef database update" diyerek veritabanı oluşturuldu 
+
+Controller oluşturuldu ve ctor yazarak constructor oluşturuldu ardından HttpPost methoduna karşılık 
+gelen Route yazılıp bu Route bir method oluşturuldu method icin dtos klasörunde Company ,Job,Candidate
+klasmrleri ve onlara karşılık gelen classlar yazıldı.
