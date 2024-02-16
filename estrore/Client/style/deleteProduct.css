@@ -1,0 +1,16 @@
+.delete-product {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3rem;
+}
+.delete-product h1,
+.delete-product h2,
+.delete-product h3,
+.delete-product h4,
+.delete-product h5,
+.delete-product h6 {
+  color: red;
+}/*# sourceMappingURL=deleteProduct.css.map */

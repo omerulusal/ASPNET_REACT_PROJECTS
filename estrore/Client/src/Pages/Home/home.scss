@@ -1,0 +1,9 @@
+@import "../../mixin.scss";
+
+.home {
+    @include main-style();
+
+    h1 {
+        color: #0000ff;
+    }
+}

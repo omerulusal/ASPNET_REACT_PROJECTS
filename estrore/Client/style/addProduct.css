@@ -1,0 +1,8 @@
+.add-product {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3rem;
+}/*# sourceMappingURL=addProduct.css.map */

@@ -1,0 +1,25 @@
+.products {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3rem;
+}
+.products .table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 30px 2px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  border-radius: 12px;
+}
+.products .table-wrapper table {
+  width: 100%;
+}
+.products .table-wrapper table td,
+.products .table-wrapper table th {
+  border: 1px solid rgba(195, 195, 195, 0.5019607843);
+  border-radius: 6px;
+  text-align: center;
+}/*# sourceMappingURL=products.css.map */

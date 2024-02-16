@@ -1,0 +1,78 @@
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(20, 4, 48);
+  color: #fff;
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .brand {
+  color: #fff;
+}
+.navbar .hamburger {
+  display: none;
+}
+.navbar .menu {
+  flex: 1;
+  margin-left: 2rem;
+}
+.navbar .menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .menu ul .close {
+  display: none;
+}
+.navbar .menu ul li {
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+.navbar .menu ul li a {
+  color: #fff;
+  padding-right: 20px;
+}
+
+@media (max-width: 500px) {
+  .navbar .hamburger {
+    display: block;
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+  .navbar .menu {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20, 4, 48);
+    position: fixed;
+    left: -100vw;
+    top: 0;
+    z-index: 3;
+    transition: all 0.3s linear;
+  }
+  .navbar .menu.open {
+    left: 0;
+  }
+  .navbar .menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 3rem;
+    position: relative;
+  }
+  .navbar .menu ul .close {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    cursor: pointer;
+    font-size: 30px;
+  }
+}/*# sourceMappingURL=navbar.css.map */
